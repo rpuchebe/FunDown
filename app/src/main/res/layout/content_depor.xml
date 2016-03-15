@@ -9,4 +9,60 @@
     tools:context="com.example.raimundoj.fundown.Depor"
     tools:showIn="@layout/activity_depor">
 
+    <ImageButton
+        android:id="@+id/box"
+        android:layout_width="250px"
+        android:layout_height="200px"
+        android:background="@drawable/box"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="250px"
+        android:layout_height="200px"
+        android:id="@+id/shorttest"
+        android:background="@drawable/shorts"
+        android:layout_alignTop="@+id/shoestest"
+        android:layout_alignEnd="@+id/shirt" />
+
+    <ImageButton
+        android:layout_width="250px"
+        android:layout_height="200px"
+        android:id="@+id/shirttest"
+        android:background="@drawable/bozquejo"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/shorttest" />
+
+    <ImageButton
+        android:layout_width="250px"
+        android:layout_height="200px"
+        android:id="@+id/shoestest"
+        android:background="@drawable/shoes1"
+        android:layout_marginStart="19dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/box" />
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="150px"
+        android:id="@+id/shirt"
+        android:background="@drawable/shirt"
+        android:layout_alignTop="@+id/box"
+        android:layout_alignEnd="@+id/box"
+        android:layout_marginEnd="105dp"
+        android:visibility="invisible"
+        android:inAnimation="@anim/fade_in"
+        android:outAnimation="@anim/fade_out"/>
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="150px"
+        android:id="@+id/shorts"
+        android:background="@drawable/shorts1"
+        android:layout_alignTop="@+id/shirt"
+        android:layout_toStartOf="@+id/shirt"
+        android:visibility="invisible"
+        android:inAnimation="@anim/fade_in"
+        android:outAnimation="@anim/fade_out"/>
+
 </RelativeLayout>

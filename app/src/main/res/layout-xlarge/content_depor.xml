@@ -14,8 +14,42 @@
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/box"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="148dp"
-        android:background="@drawable/caja" />
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="450px"
+        android:layout_height="400px"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/shorts"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_marginEnd="214dp" />
+
+    <ImageButton
+        android:layout_width="450px"
+        android:layout_height="400px"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/bozquejo"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_toStartOf="@+id/imageButton2"
+        android:layout_marginEnd="42dp" />
+
+    <ImageButton
+        android:layout_width="450px"
+        android:layout_height="400px"
+        android:id="@+id/imageButton4"
+        android:background="@drawable/shoes1"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_marginStart="78dp" />
+
+    <ImageView
+        android:layout_width="450px"
+        android:layout_height="400px"
+        android:id="@+id/imageView"
+        android:background="@drawable/shirt"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_toStartOf="@+id/imageButton" />
 </RelativeLayout>
